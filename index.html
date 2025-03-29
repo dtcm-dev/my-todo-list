@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorxata To-do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>DOM Manipulation Practice</h1>
+    
+    <div class="instructions">
+        <h2>Task: Simple Task List</h2>
+        <p>Write JavaScript code that:</p>
+        <ol>
+            <li>Adds new tasks when the Add button is clicked or Enter is pressed</li>
+            <li>Marks tasks as complete when the Complete button is clicked</li>
+            <li>Deletes tasks when the Delete button is clicked</li>
+        </ol>
+        <p><strong>Hint:</strong> You'll need to create and manipulate HTML elements with JavaScript!</p>
+    </div>
+    
+    <div class="container" id="app">
+        <!-- Your JavaScript will populate this area -->
+        <div class="input-area">
+            <input type="text" id="taskInput" placeholder="Enter a new task">
+            <button id="addButton">Add</button>
+        </div>
+        <ul id="taskList" class="task-list">
+            <!-- Tasks will be added here by JavaScript -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
